@@ -1,72 +1,63 @@
-# travelingnurses
-Open Source Air Bnb for Traveling Nurses
-<!DOCTYPE html>
-<html lang="en">
+```markdown
+# Traveling Nurses API
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traveling Nurses API Documentation</title>
-</head>
+## Description:
+The Traveling Nurses API provides endpoints for managing users, classes, registration, reviews, notifications, transactions, listings, chat, instructors, bookings, feedbacks, and events.
 
-<body>
+## Setting up the API locally:
 
-    <h1>Traveling Nurses API</h1>
+### Prerequisites:
+- Node.js
+- npm
+- Firebase CLI
 
-    <h2>Description:</h2>
-    <p>The Traveling Nurses API provides endpoints for managing users, classes, registration, reviews, notifications, transactions, listings, chat, instructors, bookings, feedbacks, and events.</p>
+### Steps:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/urbantech/travelingnurses
+   cd travelingnurses
+   ```
 
-    <h2>Setting up the API locally:</h2>
+2. **Install Dependencies:**
+   ```bash
+   cd functions
+   npm install
+   ```
 
-    <h3>Prerequisites:</h3>
-    <ul>
-        <li>Node.js</li>
-        <li>npm</li>
-        <li>Firebase CLI</li>
-    </ul>
+3. **Running the API locally:**
+   Start the Firebase emulators for Cloud Functions and Firestore.
+   ```bash
+   firebase emulators:start --only functions,firestore
+   ```
 
-    <h3>Steps:</h3>
+## Deploying to Firebase:
 
-    <ol>
-        <li><strong>Clone the Repository:</strong>
-            <pre><code>git clone https://github.com/urbantech/travelingnurses
-cd travelingnurses</code></pre>
-        </li>
+1. **Login to Firebase:**
+   ```bash
+   firebase login
+   ```
 
-        <li><strong>Install Dependencies:</strong>
-            <pre><code>cd functions
-npm install</code></pre>
-        </li>
+2. **Deploy:**
+   ```bash
+   firebase deploy --only functions
+   ```
 
-        <li><strong>Running the API locally:</strong>
-            <p>Start the Firebase emulators for Cloud Functions and Firestore.</p>
-            <pre><code>firebase emulators:start --only functions,firestore</code></pre>
-        </li>
-    </ol>
+## API Endpoints:
+- Users: `/users`
+- Classes: `/classes`
+- Registration: `/registration`
+- Reviews: `/reviews`
+- Notifications: `/notifications`
+- Admin: `/admin`
+- Transactions: `/transactions`
+- Listings: `/listings`
+- Chat: `/chat`
+- Instructors: `/instructors`
+- Bookings: `/bookings`
+- Feedbacks: `/feedbacks`
+- Events: `/events`
 
-    <h2>Deploying to Firebase:</h2>
+For detailed parameters and response formats, refer to the inline documentation in the codebase or any supplementary API documentation provided.
+```
 
-    <ol>
-        <li><strong>Login to Firebase:</strong>
-            <pre><code>firebase login</code></pre>
-        </li>
-
-        <li><strong>Deploy:</strong>
-            <pre><code>firebase deploy --only functions</code></pre>
-        </li>
-    </ol>
-
-    <h2>API Endpoints:</h2>
-    <ul>
-        <li>Users: `/users`</li>
-        <li>Classes: `/classes`</li>
-        <li>Registration: `/registration`</li>
-        <li>Reviews: `/reviews`</li>
-        <li>Notifications: `/notifications`</li>
-        <li>Admin: `/admin`</li>
-        <li>Transactions: `/transactions`</li>
-        <li>Listings: `/listings`</li>
-        <li>Chat: `/chat`</li>
-        <li>Instructors: `/instructors`</li>
-        <li>Bookings: `/bookings`</li>
-        <li>Feedback
+You can copy the above Markdown and place it in a file named `README.md` in the root of your GitHub repository. When you access the repository on GitHub, the contents of the README will be automatically rendered and displayed.
