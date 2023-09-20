@@ -6,15 +6,15 @@ Open Source Air Bnb for Traveling Nurses
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your Project Name] API Documentation</title>
+    <title>Traveling Nurses API Documentation</title>
 </head>
 
 <body>
 
-    <h1>[Your Project Name] API</h1>
+    <h1>Traveling Nurses API</h1>
 
     <h2>Description:</h2>
-    <p>A brief description of the project.</p>
+    <p>The Traveling Nurses API provides endpoints for managing users, classes, registration, reviews, notifications, transactions, listings, chat, instructors, bookings, feedbacks, and events.</p>
 
     <h2>Setting up the API locally:</h2>
 
@@ -29,8 +29,8 @@ Open Source Air Bnb for Traveling Nurses
 
     <ol>
         <li><strong>Clone the Repository:</strong>
-            <pre><code>git clone [YOUR REPO LINK]
-cd [REPO NAME]</code></pre>
+            <pre><code>git clone https://github.com/urbantech/travelingnurses
+cd travelingnurses</code></pre>
         </li>
 
         <li><strong>Install Dependencies:</strong>
@@ -57,8 +57,16 @@ npm install</code></pre>
     </ol>
 
     <h2>API Endpoints:</h2>
-    <p>Provide a list of the API endpoints, their purpose, required parameters, and any other pertinent information.</p>
-
-</body>
-
-</html>
+    <ul>
+        <li>Users: `/users`</li>
+        <li>Classes: `/classes`</li>
+        <li>Registration: `/registration`</li>
+        <li>Reviews: `/reviews`</li>
+        <li>Notifications: `/notifications`</li>
+        <li>Admin: `/admin`</li>
+        <li>Transactions: `/transactions`</li>
+        <li>Listings: `/listings`</li>
+        <li>Chat: `/chat`</li>
+        <li>Instructors: `/instructors`</li>
+        <li>Bookings: `/bookings`</li>
+        <li>Feedback
