@@ -1,43 +1,43 @@
 ```markdown
 # Traveling Nurses API
 
-## Description:
+Description:
 The Traveling Nurses API provides endpoints for managing users, classes, registration, reviews, notifications, transactions, listings, chat, instructors, bookings, feedbacks, and events.
 
-## Setting up the API locally:
+Setting up the API locally:
 
-### Prerequisites:
+# Prerequisites:
 - Node.js
 - npm
 - Firebase CLI
 
-### Steps:
-1. **Clone the Repository:**
+# Steps:
+1. Clone the Repository:
    ```bash
    git clone https://github.com/urbantech/travelingnurses
    cd travelingnurses
    ```
 
-2. **Install Dependencies:**
+2. # Install Dependencies:
    ```bash
    cd functions
    npm install
    ```
 
-3. **Running the API locally:**
+3. # Running the API locally:**
    Start the Firebase emulators for Cloud Functions and Firestore.
    ```bash
    firebase emulators:start --only functions,firestore
    ```
 
-## Deploying to Firebase:
+Deploying to Firebase:
 
-1. **Login to Firebase:**
+1. Login to Firebase:
    ```bash
    firebase login
    ```
 
-2. **Deploy:**
+2. Deploy:
    ```bash
    firebase deploy --only functions
    ```
@@ -59,5 +59,3 @@ The Traveling Nurses API provides endpoints for managing users, classes, registr
 
 For detailed parameters and response formats, refer to the inline documentation in the codebase or any supplementary API documentation provided.
 ```
-
-You can copy the above Markdown and place it in a file named `README.md` in the root of your GitHub repository. When you access the repository on GitHub, the contents of the README will be automatically rendered and displayed.
