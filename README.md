@@ -57,10 +57,7 @@ Deploying to Firebase:
 - Feedbacks: `/feedbacks`
 - Events: `/events`
 
-For detailed parameters and response formats, refer to the inline documentation in the codebase or any supplementary API documentation provided.
-
-Certainly! Here's the cleaned-up version without unnecessary markdown characters:
-
+For detailed parameters and response formats, refer to the inline documentation in the codebase or API documentation provided below.
 ---
 
 ### Reviews
